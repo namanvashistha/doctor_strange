@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(12,30,50);
+}
+
+#logo{
+  margin-top: 20px;
+  margin-left: 80px;
+  height: 80px;
+  width: 250px;
+  background-image: url("webimages/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.major-part{
+   
+  height: 60%;
+  width : 100%;
+  background-color: black;
+}
+
+
+#pageFooter {
+    position: ;
+    background-color: rgb(12,30,50);
+    padding-top: 1.5em;
+    overflow: hidden;
+    height: 80px;
+    margin-top: 90%;
+}
+
+#pageFooter a {
+    display: inline-block;
+}
+
+#pageFooter img {
+    width: 30px;
+    height: 30px;
+}
+
+#pageFooter div{
+    margin-top: -40px;
+    margin-left: 100px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    height: 80px;
+}
+
+#relatedtags{
+  height: 70px;
+  width: 500px;
+}
+
+#relatedtags ul li{
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+#relatedtags ul li a{
+  text-decoration: none;
+  color: white;
+}
+#follow{
+  margin-left: 80%;
+}
